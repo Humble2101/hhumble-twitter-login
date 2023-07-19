@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{background-color: black;
+    display:flex ;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
+    width:1000px ;
+    background: linear-gradient(-20deg, #ffffff 50%, rgb(11, 166, 212)50%);
+}
+space{
+
+    display:flex ;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height:90%;
+    width: 90.5%; 
+     border-bottom: 50px;
+}
+.twitter{
+    background-color:white;
+    height: 89%;
+    width: 520px;
+    text-align: center;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.divbtn{
+    background-color:rgb(71, 132, 246);
+    height: 89%;
+    width: 520px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+button{
+    background-color: blue;
+    color:white;
+    border-radius: 30px;
+    border-bottom: 50px;
+    padding: 12px 95px;
+    width: 70%;
+
+}
+input{height: 4%;
+    width: 60%;
+
+}
